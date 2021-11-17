@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-16T17:05:48 PKT" name="Open mrs Web Application" finished-at="2021-11-16T17:07:51 PKT" duration-ms="123148">
+    <groups>
+    </groups>
+    <test started-at="2021-11-16T17:05:48 PKT" name="Open MRS Test Cases" finished-at="2021-11-16T17:07:51 PKT" duration-ms="123148">
+      <class name="com.qa.testcases.HomepageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.HomepageTest@55634720]" started-at="2021-11-16T17:07:19 PKT" name="setUp" finished-at="2021-11-16T17:07:33 PKT" duration-ms="13675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="findPatientsTest()[pri:0, instance:com.qa.testcases.HomepageTest@55634720]" started-at="2021-11-16T17:07:33 PKT" name="findPatientsTest" finished-at="2021-11-16T17:07:40 PKT" duration-ms="7182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findPatientsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.HomepageTest@55634720]" started-at="2021-11-16T17:07:40 PKT" name="tearDown" finished-at="2021-11-16T17:07:40 PKT" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.HomepageTest@55634720]" started-at="2021-11-16T17:07:40 PKT" name="setUp" finished-at="2021-11-16T17:07:51 PKT" duration-ms="11106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomePageTitleTest()[pri:0, instance:com.qa.testcases.HomepageTest@55634720]" started-at="2021-11-16T17:07:51 PKT" name="verifyHomePageTitleTest" finished-at="2021-11-16T17:07:51 PKT" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.HomepageTest@55634720]" started-at="2021-11-16T17:07:51 PKT" name="tearDown" finished-at="2021-11-16T17:07:51 PKT" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testcases.HomepageTest -->
+      <class name="com.qa.testcases.FindPatientsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.FindPatientsTest@4659191b]" started-at="2021-11-16T17:06:23 PKT" name="setUp" finished-at="2021-11-16T17:06:43 PKT" duration-ms="20113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="findPatient()[pri:0, instance:com.qa.testcases.FindPatientsTest@4659191b]" started-at="2021-11-16T17:06:43 PKT" name="findPatient" finished-at="2021-11-16T17:07:01 PKT" duration-ms="17902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findPatient -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.FindPatientsTest@4659191b]" started-at="2021-11-16T17:07:01 PKT" name="tearDown" finished-at="2021-11-16T17:07:01 PKT" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.FindPatientsTest@4659191b]" started-at="2021-11-16T17:07:01 PKT" name="setUp" finished-at="2021-11-16T17:07:19 PKT" duration-ms="17763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyFindPatientLabel()[pri:0, instance:com.qa.testcases.FindPatientsTest@4659191b]" started-at="2021-11-16T17:07:19 PKT" name="verifyFindPatientLabel" finished-at="2021-11-16T17:07:19 PKT" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFindPatientLabel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.FindPatientsTest@4659191b]" started-at="2021-11-16T17:07:19 PKT" name="tearDown" finished-at="2021-11-16T17:07:19 PKT" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testcases.FindPatientsTest -->
+      <class name="com.qa.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.LoginPageTest@58d75e99]" started-at="2021-11-16T17:05:48 PKT" name="setUp" finished-at="2021-11-16T17:06:02 PKT" duration-ms="14196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.qa.testcases.LoginPageTest@58d75e99]" started-at="2021-11-16T17:06:03 PKT" name="loginPageTitleTest" finished-at="2021-11-16T17:06:03 PKT" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@58d75e99]" started-at="2021-11-16T17:06:03 PKT" name="tearDown" finished-at="2021-11-16T17:06:03 PKT" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.LoginPageTest@58d75e99]" started-at="2021-11-16T17:06:03 PKT" name="setUp" finished-at="2021-11-16T17:06:09 PKT" duration-ms="5953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="mrsImageLogoTest()[pri:2, instance:com.qa.testcases.LoginPageTest@58d75e99]" started-at="2021-11-16T17:06:09 PKT" name="mrsImageLogoTest" finished-at="2021-11-16T17:06:09 PKT" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mrsImageLogoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@58d75e99]" started-at="2021-11-16T17:06:09 PKT" name="tearDown" finished-at="2021-11-16T17:06:09 PKT" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.LoginPageTest@58d75e99]" started-at="2021-11-16T17:06:09 PKT" name="setUp" finished-at="2021-11-16T17:06:18 PKT" duration-ms="9169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:3, instance:com.qa.testcases.LoginPageTest@58d75e99]" started-at="2021-11-16T17:06:18 PKT" name="loginTest" finished-at="2021-11-16T17:06:22 PKT" duration-ms="4151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@58d75e99]" started-at="2021-11-16T17:06:22 PKT" name="tearDown" finished-at="2021-11-16T17:06:23 PKT" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testcases.LoginPageTest -->
+    </test> <!-- Open MRS Test Cases -->
+  </suite> <!-- Open mrs Web Application -->
+</testng-results>

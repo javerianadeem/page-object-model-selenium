@@ -1,0 +1,4 @@
+com\qa\testcases\HomepageTest.class
+com\qa\testcases\LoginPageTest.class
+com\qa\testcases\RegisterPatientTest.class
+com\qa\testcases\FindPatientsTest.class
