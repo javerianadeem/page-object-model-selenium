@@ -4,11 +4,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import com.qa.base.BasePageAllure;
 import com.qa.base.TestBase;
 
 import io.qameta.allure.Step;
 
-public class LoginPage extends TestBase{
+public class LoginPage extends BasePageAllure{
+//	change basepageallure to testbase
 
 //	page Factory - Object repository
 	@FindBy(name="username")

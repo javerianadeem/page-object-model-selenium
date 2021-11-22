@@ -45,7 +45,7 @@ public class LoginPageTest extends BasePageAllure {
 	@Story("Story Name: To check login page title")
 	public void loginPageTitleTest() {
 		String title = loginPage.validateLoginPageTitle();
-		Assert.assertEquals(title, "Login123");
+		Assert.assertEquals(title, "Login");
 	}
 	
 	@Test(priority = 2)
