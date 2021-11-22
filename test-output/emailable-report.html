@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="https://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 <title>TestNG Report</title>
@@ -8,17 +8,31 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Open mrs Web Application</th></tr>
-<tr><td><a href="#t0">Open MRS Test Cases</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">123,148</td><td></td><td></td></tr>
+<tr><th colspan="7">Open mrs Web Application</th></tr>
+<tr><td><a href="#t0">Open MRS Test Cases</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">66,573</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Open mrs Web Application</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Open MRS Test Cases &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.qa.testcases.FindPatientsTest</td><td><a href="#m0">findPatient</a></td><td rowspan="1">1637064403309</td><td rowspan="1">17902</td></tr><tr class="passedeven"><td><a href="#m1">verifyFindPatientLabel</a></td><td rowspan="1">1637064439196</td><td rowspan="1">68</td></tr><tr class="passedodd"><td rowspan="2">com.qa.testcases.HomepageTest</td><td><a href="#m2">findPatientsTest</a></td><td rowspan="1">1637064453153</td><td rowspan="1">7182</td></tr><tr class="passedodd"><td><a href="#m3">verifyHomePageTitleTest</a></td><td rowspan="1">1637064471646</td><td rowspan="1">17</td></tr><tr class="passedeven"><td rowspan="3">com.qa.testcases.LoginPageTest</td><td><a href="#m4">loginPageTitleTest</a></td><td rowspan="1">1637064363000</td><td rowspan="1">21</td></tr><tr class="passedeven"><td><a href="#m5">loginTest</a></td><td rowspan="1">1637064378829</td><td rowspan="1">4151</td></tr><tr class="passedeven"><td><a href="#m6">mrsImageLogoTest</a></td><td rowspan="1">1637064369330</td><td rowspan="1">68</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Open mrs Web Application</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Open MRS Test Cases &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">com.qa.testcases.LoginPageTest</td><td><a href="#m0">loginPageTitleTest</a></td><td rowspan="1">1637569354250</td><td rowspan="1">149</td></tr><tr class="failedeven"><td><a href="#m1">loginTest</a></td><td rowspan="1">1637569394889</td><td rowspan="1">9</td></tr><tr class="failedeven"><td><a href="#m2">mrsImageLogoTest</a></td><td rowspan="1">1637569373285</td><td rowspan="1">7</td></tr></tbody>
 </table>
-<h2>Open MRS Test Cases</h2><h3 id="m0">com.qa.testcases.FindPatientsTest#findPatient</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.qa.testcases.FindPatientsTest#verifyFindPatientLabel</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.qa.testcases.HomepageTest#findPatientsTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.qa.testcases.HomepageTest#verifyHomePageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.qa.testcases.LoginPageTest#loginPageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.qa.testcases.LoginPageTest#loginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">com.qa.testcases.LoginPageTest#mrsImageLogoTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Open MRS Test Cases</h2><h3 id="m0">com.qa.testcases.LoginPageTest#loginPageTitleTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.getTitle()&quot; because &quot;com.qa.pages.LoginPage.driver&quot; is null
+	at com.qa.pages.LoginPage.validateLoginPageTitle(LoginPage.java:38)
+	at com.qa.testcases.LoginPageTest.loginPageTitleTest(LoginPageTest.java:47)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.qa.testcases.LoginPageTest#loginTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.sendKeys(Unknown Source)
+	at com.qa.pages.LoginPage.login(LoginPage.java:49)
+	at com.qa.testcases.LoginPageTest.loginTest(LoginPageTest.java:65)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.qa.testcases.LoginPageTest#mrsImageLogoTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.isDisplayed(Unknown Source)
+	at com.qa.pages.LoginPage.validateMRSImage(LoginPage.java:43)
+	at com.qa.testcases.LoginPageTest.mrsImageLogoTest(LoginPageTest.java:56)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

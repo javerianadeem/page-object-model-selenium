@@ -6,6 +6,8 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.qa.base.TestBase;
 
+import io.qameta.allure.Step;
+
 public class LoginPage extends TestBase{
 
 //	page Factory - Object repository
@@ -31,15 +33,18 @@ public class LoginPage extends TestBase{
 	}
 	
 //	actions
-	
+	@Step("getting login page title step....")
 	public String validateLoginPageTitle() {
 		return driver.getTitle();
 	}
+	
+	@Step("verifying signup link is displayed step....")
 	public boolean validateMRSImage() {
 		return openmrsLogo.isDisplayed();
 		
 	}
 	
+	@Step("login with username: {0} and password: {1} step")
 	public HomePage login(String un, String pwd) {
 		username.sendKeys(un);
 		password.sendKeys(pwd);
